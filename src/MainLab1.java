@@ -6,7 +6,7 @@ public class MainLab1 {
 		if(elem_count < 2){
 			System.out.print("What do you want to sort ?\n");
 			System.out.print("Input only integer numbers\n");
-			System.out.print("Example:java MainLab1 5 4 3 2 1\n");
+			System.out.print("Example:java MainLab1 3 1 4 5\n");
 			System.exit(1);
 		}
 
