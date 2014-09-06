@@ -11,7 +11,7 @@ public class MainLab1 {
 				data.add(Integer.parseInt(args[i]));
 		} 
 		catch(NumberFormatException e) {
-			System.out.println("Only integer number support");
+			printHelp();
 			System.exit(1);			
 		}
 		System.out.print("Input : " + data + "\n");
